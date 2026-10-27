@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Environment & secrets
+.env
+.env.local
+.env.production
+*.env
+
+# Streamlit secrets (local only, use Streamlit Cloud secrets panel instead)
+.streamlit/secrets.toml
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs & temp
+*.log
+tmp/
+temp/
+*.tmp
+
+# Uploaded evidence (do not commit user data)
+uploads/
+evidence_exports/
+*.pdf
